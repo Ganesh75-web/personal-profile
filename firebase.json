@@ -1,13 +1,12 @@
-// firebase.json
 {
   "hosting": {
-    "public": "dist", // Should match your build output directory
+    "public": "dist",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
     ],
-    "rewrites": [ // Added if you chose 'Yes' for SPA
+    "rewrites": [
       {
         "source": "**",
         "destination": "/index.html"
