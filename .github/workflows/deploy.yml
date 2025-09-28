@@ -30,7 +30,7 @@ jobs:
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}' # Provided by GitHub Actions
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_YOUR_PROJECT_ID }}' # Alternative: Service account JSON
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_PERSONAL_PROJECT_DF9EB }}' # Alternative: Service account JSON
           channelId: live # Deploy to the default live channel
           projectId: personal-project-df9eb # Replace with your Firebase Project ID
         env:
